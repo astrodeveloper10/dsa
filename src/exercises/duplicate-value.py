@@ -7,8 +7,6 @@ def has_duplicate_value(arr):
         else:
             existing_nums[arr[i]] = 1
 
-    print(existing_nums)
-
     # for i in range(len(arr)):
     #     for j in range(len(arr)):
     #         if (i != j) and arr[i] == arr[j]:
